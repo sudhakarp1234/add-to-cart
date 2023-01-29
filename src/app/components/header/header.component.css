@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    background-color: hwb(251 25% 4%);
+  }
+  
+  .nav-left {
+    flex: 1;
+  }
+  
+  .nav-center {
+    flex: 3;
+  }
+  .button {
+    background-color: aliceblue;
+    color: aliceblue;
+  }
+ 
+  
+  .login-btn {
+    color: rgb(112, 83, 241);
+    background-color: rgb(247, 247, 252);
+    padding: 10px 15px;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  form {
+    display: flex;
+  }
+  
+  input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    width: 70%;
+    
+  }
+  
+  button[type=submit] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  
+  }
+  .navbar img {
+    width: 75px;
+    height: 50px;
+  }
+  .nav-right img {
+    width: 55px;
+    height: 40px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-4 {
+    flex: 2;
+    margin: 100px;
+  }
+  
+  .product {
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  .product h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .product p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  
